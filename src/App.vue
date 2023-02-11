@@ -91,36 +91,8 @@ const newLastname=ref("");
       <option>สถาปัตยกรรม</option>
       <option>สัตวศาสตร์</option>
     </select>
-    <br>
-    <br>
-    มีความประสงค์จะขอเปลี่ยน
-    <br>คํานําหน้าชื่อ 
-    <select name="" id="" required>
-      <option></option>
-      <option>นาย/Mr.</option>
-      <option>นางสาว/Miss</option>
-      <option>นาง/Mrs.</option>
-    </select><br>
-    <br>ชื่อ เป็น ภาษาไทย
-    <input v-model="newName" name="" id="" required><br> ภาษาอังกฤษ (พิมพ์ใหญ่)<input name="" value="" required><br>
-    <br>นานสกุล เป็น ภาษาไทย
-    <input v-model="newLastname" name="" id="" required><br> ภาษาอังกฤษ (พิมพ์ใหญ่)<input name="" value="" required><br>
-    <br>ทั้งนี้ได้แนบสําเนา
-    <br><input type="checkbox" name="" value="" > หนังสือสําคัญการเปลี่ยนชื่อ - สกุล จํานวน 1 ชุด มาพร้อมนี้<br>
-    <input type="checkbox" name="" value=""> หนังสือสําคัญการเปลี่ยนแปลงยศ จํานวน 1 ชุด มาพร้อมนี้
-    จึงเรียนมาเพื่อโปรดพิจารณาดําเนินการต่อไปด้วย จักขอบคุณยิ่ง
-    <br><span>ความเห็นหน.กลุ่มภารกิจทะเบียนเรียน ประมวลผลและรับเข้า</span>
-    <p style="">{{ message }}</p>
-    <textarea v-model="message" placeholder=""></textarea>
-    <br><span>ความเห็นผู้อํานวยการสํานักบริหารและพัฒนาวิชาการ</span>
-    <p style="">{{ message }}</p>
-    <textarea v-model="message" placeholder=""></textarea>
-    <br><span>สําหรับเจ้าหน้าที่ดําเนินการ</span>
-    <p style="">{{ message }}</p>
-    <textarea v-model="message" placeholder=""></textarea>
-    <br>หมายเหตุ<br>1. ใช้สําหรับนักศึกษาที่กําลังศึกษาเท้านั้น<br>
-    2. กรอกรายละเอียดในคําร้องเสร็จเรียบร้อยแล้ว ขอคําแนะนําจากเจ้าหน้าที่
 
+    
     <br><input type="submit" value="ยืนยันผล">
     
   </form>
